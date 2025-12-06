@@ -4,7 +4,7 @@ export default function AboutScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.name}>Khaila Franco</Text>
-      <Text style={styles.id}>Student ID: XXXX</Text>
+      <Text style={styles.id}>Student ID: 101364236</Text>
 
       <Text style={styles.desc}>
         This application converts currencies using the FreeCurrencyAPI and displays live
