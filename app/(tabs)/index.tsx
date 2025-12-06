@@ -50,7 +50,7 @@ export default function MainScreen() {
       setConverted((Number(amount) * r).toFixed(2));
 
     } catch (e) {
-      setError("Network error");
+      setError("Network error or invalid API key.");
     } finally {
       setLoading(false);
     }
