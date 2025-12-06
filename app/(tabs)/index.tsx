@@ -35,7 +35,7 @@ export default function MainScreen() {
     setConverted(null);
 
     try {
-      const API_KEY = "here";
+      const API_KEY = "fca_live_TCUDILuZdbLbFBGZi4oejm2LrMW7e0W8TAdGThGj";
       const url = `https://api.freecurrencyapi.com/v1/latest?apikey=${API_KEY}&base_currency=${base}`;
       const response = await fetch(url);
       const json = await response.json();
